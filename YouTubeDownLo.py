@@ -13,8 +13,8 @@ def install_and_update():
         print("youtube-dl is not installed. Installing now.")
         time.sleep(3)
 
-        os.system("sudo wget https://yt-dl.org/downloads/2015.03.09/youtube-dl -O /usr/local/bin/youtube-dl")
-        os.system("sudo chmod a+x /usr/local/bin/youtube-dl")
+        os.system("sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl")
+        os.system("sudo chmod a+rx /usr/local/bin/youtube-dl")
         os.system("sudo chmod rwx /usr/local/bin/youtube-dl")
         print("youtube-dl has been installed.")
 
