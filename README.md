@@ -1,7 +1,7 @@
 # YouTubeDownLo
 
-Basic script for downloading music from YouTube videos.
-Leaves .mp3 files the current directory.
+Basic script for downloading audio from YouTube videos.
+Leaves mp3 files the current directory.
 
 	$ cd Music/
 	$ python3 YouTubeDownLo.py
